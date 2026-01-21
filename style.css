@@ -27,6 +27,13 @@ h2 {
   font-size: 2rem;
   color: #1a5319;
 }
+
+h3 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #1a5319;
+  margin-top: 16px;
+}
 .birds-left {
   position: relative;
   width: 150px;
@@ -45,4 +52,111 @@ h2 {
   position: relative;
   bottom: 0;
   width: 450px;
+}
+.intro {
+  width: 40%;
+  margin: 0 auto;
+}
+.profile-picture {
+  width: 140px;
+  border-radius: 50%;
+  border: 3px solid #508d4e;
+}
+.informations {
+  display: grid;
+  margin-top: 100px;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  width: 900px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.education,
+.work-experience,
+.skills {
+  background-color: #d6efd8;
+  border: 2px solid #508d4e;
+  border-radius: 10px;
+  padding: 0px 10px 0px 10px;
+}
+.college {
+  margin-top: 50px;
+}
+.logos {
+  position: relative;
+  width: 150px;
+  border-radius: 50%;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.info-title {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+hr {
+  border: none;
+  border-bottom: 5px dotted #80af81;
+  width: 10%;
+}
+.projects-p {
+  width: 40%;
+  margin: 0 auto;
+}
+.my-projects {
+  display: flex;
+  justify-content: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+.project {
+  border: 2px solid #508d4e;
+  padding: 15px;
+  background-color: #d6efd8;
+  border-radius: 10px;
+}
+.project-img {
+  width: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #80af81;
+}
+a {
+  text-decoration: none;
+}
+.project-title {
+  transition: color 0.3s ease;
+}
+.project-title:hover {
+  color: #80af81;
+}
+.about-me {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.contact {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.btn {
+  color: white;
+  background-color: #508d4e;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: #80af81;
+}
+.contact p {
+  margin-bottom: 50px;
 }
