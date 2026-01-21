@@ -5,3 +5,5 @@
 The top container includes an h1, an h2, and images, styled using CSS.
 ### Preview
 ![](Images/top-container.jpg)
+## Middle Container
+The middle container is structured into multiple sections presenting my information, projects, and contact details.
